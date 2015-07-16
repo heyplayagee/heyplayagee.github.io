@@ -76,15 +76,18 @@
  		<br>
  		
  		<!-- image that changes when clicked -->
-		<img class="center" id="cuteStarWars" src="IMG_0228.JPG" onclick="changeImage()" style = "height: 60%; width: 60%;">
+		<img class="center" id="cuteStarWars" src="https://cloud.githubusercontent.com/assets/8279096/8731463/59eb7fea-2bac-11e5-87ab-5d4def4677c9.JPG" onclick="changeImage()" style = "height: 60%; width: 60%;">
 		</div>
  		
  		<script>
  			function changeImage(){
- 			        if (document.getElementById("cuteStarWars").src == "IMG_0228.JPG"){
- 						document.getElementById("cuteStarWars").src = "IMG_0229.JPG";
+ 			        if (document.getElementById("cuteStarWars").src == "https://cloud.githubusercontent.com/assets/8279096/8731463/59eb7fea-2bac-11e5-87ab-5d4def4677c9.JPG"){
+ 						document.getElementById("cuteStarWars").src = "https://cloud.githubusercontent.com/assets/8279096/8731464/59ef229e-2bac-11e5-9479-b90208b4f6dd.JPG";
  						alert("image changed!");
  					}
+ 				else{
+ 					document.getElementById("cuteStarWars").src = "https://cloud.githubusercontent.com/assets/8279096/8731463/59eb7fea-2bac-11e5-87ab-5d4def4677c9.JPG";
+ 				}
  					alert("you have clicked this image!");
  			}
  		</script>
