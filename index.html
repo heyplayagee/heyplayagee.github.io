@@ -1,62 +1,16 @@
 <html>
 	<!-- this is where the header goes -->
 	<head>
-		<!-- title is what my page name is (but it will not show up on the screen) -->
-		<title>Stacy Gee's Homepage</title>
 		<!-- most CSS goes here -->
-		<style>
-			body {
-				background-color: #ccc;
-				font-family: "Gill Sans", Verdana, sans-serif;
-				font-size: 100%;
-			}
-			li{
-				width: 20%;
-				display: block;
-				/*float: right;
-				background-color: #22ccff;
-				*/padding: 4px;
-				text-align: center;
-				text-transform: uppercase;
-			}
-			a:link{
-				color:#0022ff;
-				text-decoration: none;
-			}
-			a:visited{
-				color:#000066;
-			}
-			h1{
-				text-align:center;
-			}
-			p {
-				text-align:center;
-				color: #000;
-			}
-			li:hover{
-				background-color: #11bbee; /*darker light blue*/
-			}
-			ul{
-			    text-align:center;
-			    list-style-type: none;
-			    margin: 0;
-			    padding: 0;
-			}
-			.center {
-				margin: auto;
-    			width: 80%;
-    			border: 3px dotted #11bbee;
-    			padding: 10px;
-    			color: #abcdef;
-			}
-		</style>
+		<link ref="stylesheet" src="index.css"/>
+		<!-- title is what my page name is (but it will not show up on the screen) -->
+		<title>Stacy Gee</title>
 	</head>
 	<body>
 		<!-- menu navigation bar -->
 		<ul>
-			<li style="float:left;"><a href="#home">Home</a></li>
-			<li style="float: right;"><a href="#contact">Contact</a></li>
-
+			<li id="home"><a href="#home">Home</a></li>
+			<li id="contact"><a href="#contact">Contact</a></li>
 		</ul>
 
 		<br>
@@ -66,7 +20,7 @@
 		</p>
 		<p>Okay. Bye.</p>
  		<!-- add a box to show text -->
- 		<div class="center" id="imagebox1" align=center style = "height: 500px; width: 400px; background-color: #888;">
+ 		<div class="center" id="imagebox1" align=center>
  		<!-- page links here -->
  		<ul>
  		<li><a href="#projects">Projects</a></li>
@@ -76,22 +30,8 @@
  		<br>
  		
  		<!-- image that changes when clicked -->
-		<img class="center" id="cuteStarWars" src="https://cloud.githubusercontent.com/assets/8279096/8731463/59eb7fea-2bac-11e5-87ab-5d4def4677c9.JPG" onclick="changeImage()" style = "height: 60%; width: 60%;">
+		<img class="center" id="cuteStarWars" src="https://cloud.githubusercontent.com/assets/8279096/8731463/59eb7fea-2bac-11e5-87ab-5d4def4677c9.JPG" onclick="changeImage()">
 		</div>
- 		
- 		<script>
- 			function changeImage(){
- 				alert("You clicked this image!");
- 				if (document.getElementById("cuteStarWars").src == "https://cloud.githubusercontent.com/assets/8279096/8731463/59eb7fea-2bac-11e5-87ab-5d4def4677c9.JPG"){
- 						document.getElementById("cuteStarWars").src = "https://cloud.githubusercontent.com/assets/8279096/8731464/59ef229e-2bac-11e5-9479-b90208b4f6dd.JPG";
- 						alert("Success! Image changed!");
- 					}
- 				else{
- 					document.getElementById("cuteStarWars").src = "https://cloud.githubusercontent.com/assets/8279096/8731463/59eb7fea-2bac-11e5-87ab-5d4def4677c9.JPG";
- 					alert("Success! Image changed!");
- 				}
- 			}
- 		</script>
  		
  	</body>
 </html>
