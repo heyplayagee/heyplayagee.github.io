@@ -1,0 +1,61 @@
+/* index.css */
+
+body {
+	background-color: #ccc;
+	font-family: "Gill Sans", Verdana, sans-serif;
+	font-size: 100%;
+}
+li{
+	width: 20%;
+	display: block;
+	/*float: right;
+	background-color: #22ccff;
+	*/padding: 4px;
+	text-align: center;
+	text-transform: uppercase;
+}
+a:link{
+	color:#0022ff;
+	text-decoration: none;
+}
+a:visited{
+	color:#000066;
+}
+h1{
+	text-align:center;
+}
+p {
+	text-align:center;
+	color: #000;
+}
+li:hover{
+	background-color: #11bbee; /*darker light blue*/
+}
+#home{
+	float: left;
+}
+#contact{
+	float: right;
+}
+#cuteStarWars{
+	 height: 60%;
+	 width: 60%;
+}
+#imagebox1{
+	height: 500px;
+	width: 400px;
+	background-color: #888;
+}
+ul{
+	text-align:center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.center {
+	margin: auto;
+	width: 80%;
+	border: 3px dotted #11bbee;
+	padding: 10px;
+	color: #abcdef;
+}
