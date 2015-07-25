@@ -33,7 +33,7 @@
 		<!-- angular.js stuff -->
 		<div ng-app="">
 			<p>Name: <input type="text" ng-model="name"></p>
-			<p ng-bind="name"></p> <!-- prints it out -->
+			<p ng-bind="name">{{"Thank you for writing your name, " + name}}</p> <!-- prints it out -->
 		</div>
 		
 		<p>Hi.</p>
