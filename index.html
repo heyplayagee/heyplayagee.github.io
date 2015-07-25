@@ -3,6 +3,11 @@
 	<head>
 		<!-- most CSS goes here -->
 		<link ref="stylesheet" src="index.css"/>
+		<!-- import scripts -->
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<!-- title is what my page name is (but it will not show up on the screen) -->
 		<title>Stacy Gee</title>
 	</head>
@@ -15,20 +20,27 @@
 
 		<br>
 		<h1>Stacy's Page</h1>
-		<p>Hi.
-		Hi again.
-		</p>
-		<p>Okay. Bye.</p>
+		<nav>
+ 			<ul>
+ 				<li><a href="#projects">Projects</a></li>
+				<li><a href="#about">About Me</a></li>
+ 			</ul>
+ 			This is my cool project.
+ 		</nav>
+ 		
+		<!-- angular.js stuff -->
+		<div ng-app="">
+			<p>Name: <input type="text" ng-model="name"></p>
+			<p ng-bind="name"></p> <!-- prints it out -->
+		</div>
+		
+		<p>Hi.</p>
+		<p>21. CS. Tapioca. Guitar.</p>
+		<p>Bye. :)</p>
  		<!-- add a box to show text -->
  		<div class="center" id="imagebox1" align=center>
  		<!-- page links here -->
- 		<ul>
- 		<li><a href="#projects">Projects</a></li>
-		<li><a href="#about">About Me</a></li>
- 		</ul>
- 		This is my cool project.
  		<br>
- 		
  		<!-- image that changes when clicked -->
 		<img class="center" id="cuteStarWars" src="https://cloud.githubusercontent.com/assets/8279096/8731463/59eb7fea-2bac-11e5-87ab-5d4def4677c9.JPG" onclick="changeImage()">
 		</div>
