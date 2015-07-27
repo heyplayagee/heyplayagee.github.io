@@ -4,69 +4,37 @@
 		<!-- title is what my page name is (but it will not show up on the screen) -->
 		<title>Stacy Gee's Homepage</title>
 		<!-- most CSS goes here -->
-		<style>
-			body {
-				background-color: #ccc;
-				font-family: "Gill Sans", Verdana, sans-serif;
-				font-size: 100%;
-			}
-			li{
-				width: 20%;
-				display: block;
-				/*float: right;
-				background-color: #22ccff;
-				*/padding: 4px;
-				text-align: center;
-				text-transform: uppercase;
-			}
-			a:link{
-				color:#0022ff;
-				text-decoration: none;
-			}
-			a:visited{
-				color:#000066;
-			}
-			h1{
-				text-align:center;
-			}
-			p {
-				text-align:center;
-				color: #000;
-			}
-			li:hover{
-				background-color: #11bbee; /*darker light blue*/
-			}
-			ul{
-			    text-align:center;
-			    list-style-type: none;
-			    margin: 0;
-			    padding: 0;
-			}
-			.center {
-				margin: auto;
-    			width: 80%;
-    			border: 3px dotted #11bbee;
-    			padding: 10px;
-    			color: #abcdef;
-			}
-		</style>
+		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+		<script src='index.js'></script>
+		<link rel='stylesheet' href='index.css'>
 	</head>
+
 	<body>
 		<!-- menu navigation bar -->
-		<ul>
-			<li style="float:left;"><a href="#home">Home</a></li>
-			<li style="float: right;"><a href="#contact">Contact</a></li>
+		<nav>
+			<ul>
+				<li style="float:left;"><a href="#home">Home</a></li>
+				<li style="float: right;"><a href="#contact">Contact</a></li>
 
-		</ul>
+			</ul>
+		</nav>
 
 		<br>
 		<h1>Stacy's Page</h1>
-		<p>Hi.
-		Hi again.
+		<p>21.
 		</p>
 		<p>Okay. Bye.</p>
  		<!-- add a box to show text -->
- 		<div class="center" id="imagebox1" align=center style = "height: 500px; width: 400px; background-color: #888;">
+ 		<nav><div id="circles" align=center>
+ 			<div class='full-circle' id="about-me"><h3>About Me</h3></div>
+ 			<div class='full-circle' id="resume"><h3>Resume</h3></div>
+ 			<div class='full-circle' id="projects"><h3>Projects</h3></div>
+ 			<div class='full-circle' id="blog"><h3>Blog</h3></div>
+ 			<div class='full-circle' id="contact-info"><h3>Contact</h3></div>
+		</div>
+	</nav>
+		
+		<div class="center" id="imagebox1" align=center>
  		<!-- page links here -->
  		<ul>
  		<li><a href="#projects">Projects</a></li>
