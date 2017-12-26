@@ -1,26 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset=utf-8 />
+<head lang="en">
+	<meta charset="utf-8">
 	<title>Stacy's Tapiocount 2017</title>
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 	<script src='https://code.jquery.com/jquery-2.1.4.js'></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <script src="tapiocount.js"></script>
+    <script type="text/javascript" src="tapiocount.js"></script>
+    <style>
+    body {
+        background-color: #fff;
+    }
+    </style>
 </head>
 
 <body>
+<!-- Navigation -->
+<!-- 
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Tapiocount 2017</a>
+        <ul class="nav navbar-nav">
+            <li><a href="#">Map</a></li>
+            <li><a href="#">Gallery List</a></li>
+        </ul>
+    </div>
+</nav>
+-->
 <div id="intro" align="center">
 	<h1>Tapiocount 2017</h1>
-    <p>Keeping track of my tapioca/boba/bubble tea/bubbles intake this year. :)
-	<p>Thanks Ran D. for the inspiration (but basically copying).</p>
+    <p class="lead">In February of 2017, I decided to keep track of my tapioca/boba/bubble tea/bubbles intake.<br>
+	Thanks Ran D. for the <s>inspiration</s> idea to totally copy.</p>
+    <p>Soon to come: Map of all of the locations pinned.</p>
 </div>
-<ul>
-    <li><a href="#" onclick="sortButtonClicked('date_asc')">Sort By Date (ascending)</a></li>
-    <li><a href="#" onclick="sortButtonClicked('date_desc')">Sort By Date (descending)</a></li>
-    <li><a href="#" onclick="sortButtonClicked('location')">Sort By Store Name</a></li>
-    <li><a href="#" onclick="sortButtonClicked('shuffle')">Shuffle</a></li>
-</ul>
-<div id="tapiogallery"></div>
+
+<!-- Map -->
+<!-- 
+<div></div>
+ -->
+
+<!-- Gallery -->
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <a class="navbar-brand" href="#">The Gallery</a>
+        <ul class="nav navbar-nav">
+            <li><a href="#" onclick="sortButtonClicked('date_asc')">Sort By Date (ascending)</a></li>
+            <li><a href="#" onclick="sortButtonClicked('date_desc')">Sort By Date (descending)</a></li>
+            <li><a href="#" onclick="sortButtonClicked('location')">Sort By Establishment Name</a></li>
+            <li><a href="#" onclick="sortButtonClicked('shuffle')">Shuffle</a></li>
+        </ul>
+    </div>
+</nav>
+<div id="gallery" style="margin:50px" align="center"></div>
+
 </body>
 </html>
