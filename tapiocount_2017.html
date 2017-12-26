@@ -6,6 +6,7 @@
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 	<script src='https://code.jquery.com/jquery-2.1.4.js'></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="tapiocount.js"></script>
 </head>
 
 <body>
@@ -14,8 +15,12 @@
     <p>Keeping track of my tapioca/boba/bubble tea/bubbles intake this year. :)
 	<p>Thanks Ran D. for the inspiration (but basically copying).</p>
 </div>
+<ul>
+    <li><a href="#" onclick="sortButtonClicked('date_asc')">Sort By Date (ascending)</a></li>
+    <li><a href="#" onclick="sortButtonClicked('date_desc')">Sort By Date (descending)</a></li>
+    <li><a href="#" onclick="sortButtonClicked('location')">Sort By Store Name</a></li>
+    <li><a href="#" onclick="sortButtonClicked('shuffle')">Shuffle</a></li>
+</ul>
 <div id="tapiogallery"></div>
-<script src="tapiocount.js"></script>
 </body>
-
 </html>
