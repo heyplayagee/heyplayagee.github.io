@@ -1199,7 +1199,7 @@ function showTapiocount(tap) {
       "<h1>#" + tap[i]['number'] + " <small class='text-muted'>" + tap[i]['dateLong'] + "</small></h1>" + //number tapioca
       "<h3>" + tap[i]['establishment'] + "</h3>" + //date & name of establishment
       "<h4>" + tap[i]['drink'] + "</h4>" + //drink name
-      "<h4><a href='" + tap[i]['addressLong'] + "'><p>" + tap[i]['addressShort'] + "</p></a></h4>" + //*****Need to add maps address
+      "<h4>" + tap[i]['addressShort'] + "</h4>" + //*****Need to add maps address
       "<img style='max-width:250px' src='" + tap[i]['image1'] + "' />";
 
       // Adds the HTML to the last cell in the gallery div

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<title>Stacy's Tapiocount 2017</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	<script src='https://code.jquery.com/jquery-2.1.4.js'></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel='stylesheet' href='posts.css'>
+  <script type="text/javascript" src="tapiocount.js"></script>
+</head>
+
+<body>
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TLLH2D"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TLLH2D');</script>
+  <!-- End Google Tag Manager -->
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<!-- header -->
+<div class="jumbotron" id="header">
+  <a href="http://heyplayagee.github.io/">
+    <center>
+      <h1 style="color:white">Stacy's Page Perpuetually Under Construction</h1>
+      <h3 style="color:white">Figuring out life one line at a time.</h3>
+    </center>
+  </a>
+</div>
+<!-- end header -->
+
+<!-- sidebar -->
+<div id="main" align="left" class="container">
+  <!-- page links here -->
+  <div id="main-nav" align=center>
+    <div class='full-circle' id="about-me"><h3>About Me</h3></div>
+    <div class='full-circle' id="resume"><h3>Projects</h3></div>
+    <!-- <div class='full-circle' id="projects"><h3>Projects</h3></div> -->
+    <div class='full-circle' id="blog"><h3>Blog</h3></div>
+    <div class='full-circle' id="contact-info"><h3>Contact</h3></div>
+  </div>
+
+  <!-- main content -->
+  <div id="content" class="container-fluid">
+    <!-- Title -->
+    <center>
+      <h1><b>
+        Tapiocount 2017<br>
+        <small class="text-muted">
+          Posted December 25, 2017
+        </small>
+      </b></h1>
+    </center>
+
+    <hr>
+
+    <p class="lead">In February of 2017, I decided to keep track of my tapioca/boba/bubble tea/bubbles intake.<br>
+     Thanks Ran D. for the <s>inspiration</s> idea to totally copy.</p>
+     <ul>
+       <li><a href="#stats">Statistics</a></li>
+       <li><a href="#gallery">Gallery of tapioca</a></li>
+       <li><a href="#map">Map of all of the locations pinned</a></li>
+     </ul>
+
+     <!-- Statistics -->
+     <div id="stats">
+      <h1>Fun stats, quick maths</h1>
+      <ul>
+        <li><b>Days with more than one tapioca drink:</b> 4</li>
+        <li><b>Most visited tapioca chain:</b> i-Tea (16 times!)</li>
+        <li><b>Most visited tapioca location:</b> i-Tea Sunset (10)</li>
+        <li><b>Most ordered drinks:</b>
+          <ol>
+            <li>Black milk tea</li>
+            <li>Earl grey milk tea</li>
+            <li>Jasmine milk tea</li>
+          </ol>
+        </li>
+        <li><b>Month with the most tapioca:</b> July and September tied at 13!</li>
+        <li><b>Week with the most tapioca (Sun-Sat):</b> September 17-23 and November 19-25 with 5 tapioca each</li>
+        <li><b>Most days in a row getting tapioca:</b> 4 (September 15-18 and September 21-24)</li>
+        <li><b>Day of the week with the most tapioca consumed:</b> Sunday (23) with Saturday (21) close behind</li>
+        <li><b>Day of the week with the least tapioca consumed:</b> Wednesday (5)</li>
+        <li><b>Last tapioca being 23:</b> August 16 (5 days before)</li>
+        <li><b>First tapioca being 24:</b> August 25 (4 days after)</li>
+      </ul>
+    </div>
+
+    <br>
+    <hr>
+
+    <!-- Gallery -->
+    <h1>The Gallery</h1>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <ul class="nav navbar-nav">
+          <li><a href="#" onclick="sortButtonClicked('date_asc')">Sort By Date (ascending)</a></li>
+          <li><a href="#" onclick="sortButtonClicked('date_desc')">Sort By Date (descending)</a></li>
+          <li><a href="#" onclick="sortButtonClicked('location')">Sort By Establishment Name</a></li>
+          <li><a href="#" onclick="sortButtonClicked('shuffle')">Shuffle</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="gallery"></div>
+
+    <br>
+    <hr>
+
+    <!-- Map -->
+    <div id="map">
+      <h1>Map</h1>
+      <center>
+        <iframe src="https://www.google.com/maps/d/embed?mid=15AlvAcJPHuRurrtYhBjnExiZmJFz88JL" width="640" height="480"></iframe>
+      </center>
+    </div>
+
+  </div>  <!-- end main content -->
+</div>   <!-- end sidebar -->
+</body>
+</html>
