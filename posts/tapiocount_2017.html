@@ -57,88 +57,87 @@ function topFunction() {
 <div id="main" align="left" class="container">
   <!-- page links here -->
   <div id="main-nav" align=center>
-    <div class='full-circle' id="about-me"><h3>About Me</h3></div>
-    <div class='full-circle' id="resume"><h3>Projects</h3></div>
-    <!-- <div class='full-circle' id="projects"><h3>Projects</h3></div> -->
-    <div class='full-circle' id="blog"><h3>Blog</h3></div>
-    <div class='full-circle' id="contact-info"><h3>Contact</h3></div>
+   <a href="../about.html"><div class='full-circle' id="about-me"><h3>About Me</h3></div></a>
+   <a href="../projects.html"><div class='full-circle' id="resume"><h3>Projects</h3></div></a>
+   <a href="../blog.html"><div class='full-circle' id="blog"><h3>Blog</h3></div></a>
+   <a href="../contact.html"><div class='full-circle' id="contact-info"><h3>Contact</h3></div></a>
+ </div>
+
+ <!-- main content -->
+ <div id="content" class="container-fluid">
+  <!-- Title -->
+  <center>
+    <h1><b>
+      Tapiocount 2017<br>
+      <small class="text-muted">
+        Posted December 25, 2017
+      </small>
+    </b></h1>
+  </center>
+
+  <hr>
+
+  <p class="lead">In February of 2017, I decided to keep track of my tapioca/boba/bubble tea/bubbles intake.<br>
+   Thanks Ran D. for the <s>inspiration</s> idea to totally copy.</p>
+   <ul>
+     <li><a href="#stats">Statistics</a></li>
+     <li><a href="#gallery">Gallery of tapioca</a></li>
+     <li><a href="#map">Map of all of the locations pinned</a></li>
+   </ul>
+
+   <!-- Statistics -->
+   <div id="stats">
+    <h1>Fun stats, quick maths</h1>
+    <ul>
+      <li><b>Days with more than one tapioca drink:</b> 4</li>
+      <li><b>Most visited tapioca chain:</b> i-Tea (16 times!)</li>
+      <li><b>Most visited tapioca location:</b> i-Tea Sunset (10)</li>
+      <li><b>Most ordered drinks:</b>
+        <ol>
+          <li>Black milk tea</li>
+          <li>Earl grey milk tea</li>
+          <li>Jasmine milk tea</li>
+        </ol>
+      </li>
+      <li><b>Month with the most tapioca:</b> July and September tied at 13!</li>
+      <li><b>Week with the most tapioca (Sun-Sat):</b> September 17-23 and November 19-25 with 5 tapioca each</li>
+      <li><b>Most days in a row getting tapioca:</b> 4 (September 15-18 and September 21-24)</li>
+      <li><b>Day of the week with the most tapioca consumed:</b> Sunday (23) with Saturday (21) close behind</li>
+      <li><b>Day of the week with the least tapioca consumed:</b> Wednesday (5)</li>
+      <li><b>Last tapioca being 23:</b> August 16 (5 days before)</li>
+      <li><b>First tapioca being 24:</b> August 25 (4 days after)</li>
+    </ul>
   </div>
 
-  <!-- main content -->
-  <div id="content" class="container-fluid">
-    <!-- Title -->
-    <center>
-      <h1><b>
-        Tapiocount 2017<br>
-        <small class="text-muted">
-          Posted December 25, 2017
-        </small>
-      </b></h1>
-    </center>
+  <br>
+  <hr>
 
-    <hr>
-
-    <p class="lead">In February of 2017, I decided to keep track of my tapioca/boba/bubble tea/bubbles intake.<br>
-     Thanks Ran D. for the <s>inspiration</s> idea to totally copy.</p>
-     <ul>
-       <li><a href="#stats">Statistics</a></li>
-       <li><a href="#gallery">Gallery of tapioca</a></li>
-       <li><a href="#map">Map of all of the locations pinned</a></li>
-     </ul>
-
-     <!-- Statistics -->
-     <div id="stats">
-      <h1>Fun stats, quick maths</h1>
-      <ul>
-        <li><b>Days with more than one tapioca drink:</b> 4</li>
-        <li><b>Most visited tapioca chain:</b> i-Tea (16 times!)</li>
-        <li><b>Most visited tapioca location:</b> i-Tea Sunset (10)</li>
-        <li><b>Most ordered drinks:</b>
-          <ol>
-            <li>Black milk tea</li>
-            <li>Earl grey milk tea</li>
-            <li>Jasmine milk tea</li>
-          </ol>
-        </li>
-        <li><b>Month with the most tapioca:</b> July and September tied at 13!</li>
-        <li><b>Week with the most tapioca (Sun-Sat):</b> September 17-23 and November 19-25 with 5 tapioca each</li>
-        <li><b>Most days in a row getting tapioca:</b> 4 (September 15-18 and September 21-24)</li>
-        <li><b>Day of the week with the most tapioca consumed:</b> Sunday (23) with Saturday (21) close behind</li>
-        <li><b>Day of the week with the least tapioca consumed:</b> Wednesday (5)</li>
-        <li><b>Last tapioca being 23:</b> August 16 (5 days before)</li>
-        <li><b>First tapioca being 24:</b> August 25 (4 days after)</li>
+  <!-- Gallery -->
+  <h1>The Gallery</h1>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <ul class="nav navbar-nav">
+        <li><a href="#" onclick="sortButtonClicked('date_asc')">Sort By Date (ascending)</a></li>
+        <li><a href="#" onclick="sortButtonClicked('date_desc')">Sort By Date (descending)</a></li>
+        <li><a href="#" onclick="sortButtonClicked('location')">Sort By Establishment Name</a></li>
+        <li><a href="#" onclick="sortButtonClicked('shuffle')">Shuffle</a></li>
       </ul>
     </div>
+  </nav>
+  <div id="gallery"></div>
 
-    <br>
-    <hr>
+  <br>
+  <hr>
 
-    <!-- Gallery -->
-    <h1>The Gallery</h1>
-    <nav class="navbar navbar-default" role="navigation">
-      <div class="container">
-        <ul class="nav navbar-nav">
-          <li><a href="#" onclick="sortButtonClicked('date_asc')">Sort By Date (ascending)</a></li>
-          <li><a href="#" onclick="sortButtonClicked('date_desc')">Sort By Date (descending)</a></li>
-          <li><a href="#" onclick="sortButtonClicked('location')">Sort By Establishment Name</a></li>
-          <li><a href="#" onclick="sortButtonClicked('shuffle')">Shuffle</a></li>
-        </ul>
-      </div>
-    </nav>
-    <div id="gallery"></div>
+  <!-- Map -->
+  <div id="map">
+    <h1>Map</h1>
+    <center>
+      <iframe src="https://www.google.com/maps/d/embed?mid=15AlvAcJPHuRurrtYhBjnExiZmJFz88JL" width="640" height="480"></iframe>
+    </center>
+  </div>
 
-    <br>
-    <hr>
-
-    <!-- Map -->
-    <div id="map">
-      <h1>Map</h1>
-      <center>
-        <iframe src="https://www.google.com/maps/d/embed?mid=15AlvAcJPHuRurrtYhBjnExiZmJFz88JL" width="640" height="480"></iframe>
-      </center>
-    </div>
-
-  </div>  <!-- end main content -->
+</div>  <!-- end main content -->
 </div>   <!-- end sidebar -->
 </body>
 </html>
