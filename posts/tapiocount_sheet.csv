@@ -3,64 +3,64 @@ number,date,establishment,drink,addressShort,image1,image2,addressLong,dateLong
 2,2017-01-21,85 Degrees,Black tea,"Daly City, CA",,,,January 21
 3,2017-01-21,TeaOne,Okinawa milk tea,SF,,,,January 21
 4,2017-01-27,Teaspoon,Rose milk tea,SF,,,,January 27
-5,2017-02-03,Cassava Cafe,Earl grey milk tea,"Chicago, IL",https://farm5.staticflickr.com/4588/38336346285_9bd11eaa6e_b.jpg,https://farm5.staticflickr.com/4646/27436514369_92a0d57144_b.jpg,,February 3
+5,2017-02-03,Cassava Cafe,Earl grey milk tea,"Chicago, IL",https://farm5.staticflickr.com/4588/38336346285_9bd11eaa6e_z.jpg,https://farm5.staticflickr.com/4646/27436514369_92a0d57144_z.jpg,,February 3
 6,2017-02-04,Kung Fu Tea,Black milk tea,"Evanston, IL",,,,February 4
 7,2017-02-04,i-Tea,Oriental Beauty,SF (Sunset),,,,February 4
 8,2017-02-08,Sharetea,Black milk tea,SF (Metreon),,,,February 8
-9,2017-02-13,Stir it Up,Jasmine milk tea,"Wailuku, Maui, HI",https://farm5.staticflickr.com/4739/38505051634_17c970eb1a_b.jpg,,,February 13
-10,2017-02-18,i-Tea,Jasmine green milk tea,SF (Sunset),https://farm5.staticflickr.com/4685/38505045874_fd8500fff2_b.jpg,,,February 18
-11,2017-02-25,Aqua Club Dessert & Beverage,Matcha red bean milk tea,"San Bruno, CA",https://farm5.staticflickr.com/4691/38505051364_e9fd2b3e46_n.jpg,,,February 25
-12,2017-03-04,Teaspoon,Earl grey milk tea,SF,https://farm5.staticflickr.com/4633/38505051054_b397738c38_b.jpg,https://farm5.staticflickr.com/4681/38336346175_9c2175e688_b.jpg,,March 4
-13,2017-03-10,Thirst-tea,Black milk tea,"Omaha, NE",https://farm5.staticflickr.com/4726/38505045754_03e1cc782b_b.jpg,,,March 10
-14,2017-03-11,Teaspoon,Japanese rice milk tea,SF,https://farm5.staticflickr.com/4591/27436513809_f06ce3b5d5_b.jpg,,,March 11
-15,2017-03-12,Bubbles,Roast sencha milk tea,SF,https://farm5.staticflickr.com/4639/38505050864_389229162b_b.jpg,,,March 12
-16,2017-03-18,TFM,Rose milk tea,SF (Stonestown),https://farm5.staticflickr.com/4681/27436513619_40a1355729_b.jpg,,,March 18
-17,2017-03-19,Pekoe,Pekoe special (earl grey milk tea w/ grass jelly and tapioca),"San Jose, CA",https://farm5.staticflickr.com/4587/38505045714_d1b7224577_z.jpg,https://farm5.staticflickr.com/4690/38505050724_824cf0e69c_b.jpg,,March 19
-18,2017-03-23,Tbaar,Black milk tea,"Las Vegas, NV",https://farm5.staticflickr.com/4686/38506601594_d7f4b2474e_b.jpg,https://farm5.staticflickr.com/4637/24351971527_f0b4850bb4_b.jpg,,March 23
-19,2017-04-04,Asha Tea House,Iced matcha latte,SF,https://farm5.staticflickr.com/4693/27436513349_424db03085_b.jpg,,,April 4
+9,2017-02-13,Stir it Up,Jasmine milk tea,"Wailuku, Maui, HI",https://farm5.staticflickr.com/4739/38505051634_17c970eb1a_z.jpg,,,February 13
+10,2017-02-18,i-Tea,Jasmine green milk tea,SF (Sunset),https://farm5.staticflickr.com/4685/38505045874_fd8500fff2_z.jpg,,,February 18
+11,2017-02-25,Aqua Club Dessert & Beverage,Matcha red bean milk tea,"San Bruno, CA",https://farm5.staticflickr.com/4691/38505051364_e9fd2b3e46_z.jpg,,,February 25
+12,2017-03-04,Teaspoon,Earl grey milk tea,SF,https://farm5.staticflickr.com/4633/38505051054_b397738c38_z.jpg,https://farm5.staticflickr.com/4681/38336346175_9c2175e688_z.jpg,,March 4
+13,2017-03-10,Thirst-tea,Black milk tea,"Omaha, NE",https://farm5.staticflickr.com/4726/38505045754_03e1cc782b_z.jpg,,,March 10
+14,2017-03-11,Teaspoon,Japanese rice milk tea,SF,https://farm5.staticflickr.com/4591/27436513809_f06ce3b5d5_z.jpg,,,March 11
+15,2017-03-12,Bubbles,Roast sencha milk tea,SF,https://farm5.staticflickr.com/4639/38505050864_389229162b_z.jpg,,,March 12
+16,2017-03-18,TFM,Rose milk tea,SF (Stonestown),https://farm5.staticflickr.com/4681/27436513619_40a1355729_z.jpg,,,March 18
+17,2017-03-19,Pekoe,Pekoe special (earl grey milk tea w/ grass jelly and tapioca),"San Jose, CA",https://farm5.staticflickr.com/4587/38505045714_d1b7224577_z.jpg,https://farm5.staticflickr.com/4690/38505050724_824cf0e69c_z.jpg,,March 19
+18,2017-03-23,Tbaar,Black milk tea,"Las Vegas, NV",https://farm5.staticflickr.com/4686/38506601594_d7f4b2474e_z.jpg,https://farm5.staticflickr.com/4637/24351971527_f0b4850bb4_z.jpg,,March 23
+19,2017-04-04,Asha Tea House,Iced matcha latte,SF,https://farm5.staticflickr.com/4693/27436513349_424db03085_z.jpg,,,April 4
 20,2017-04-07,i-Tea,Black milk tea,"Newark, CA",,,,April 7
-21,2017-04-09,Cha Express,Handmade black rice milk tea,"San Mateo, CA",https://farm5.staticflickr.com/4733/38336345995_cfe7feff10_b.jpg,https://farm5.staticflickr.com/4727/27436513189_def858b678_z.jpg,,April 9
-22,2017-04-10,Sharetea,Honey green tea,SF (Metreon),https://farm5.staticflickr.com/4680/38505045644_81081e0fd8_b.jpg,https://farm5.staticflickr.com/4595/27436513069_4d74fb90d6_z.jpg,,April 10
-23,2017-04-11,Home Plate Boba,Thai milk tea,SF,https://farm5.staticflickr.com/4681/24352054427_13004ca608_b.jpg,,,April 11
-24,2017-04-21,T4,Earl Grey milk tea,"Millbrae, CA",https://farm5.staticflickr.com/4739/38505050194_7eee884eb3_b.jpg,,,April 21
-25,2017-04-23,Boba Guys,Matcha latte,SF (Fillmore),https://farm5.staticflickr.com/4587/38505050084_6e4e582c52_b.jpg,,,April 23
-26,2017-04-29,Sencha Tea Bar,Silver Needles (black tea),"Bloomington, MN",https://farm5.staticflickr.com/4729/38505050004_bcc14ca9b9_z.jpg,https://farm5.staticflickr.com/4735/27436512779_e51f5abc3f_b.jpg,,April 29
-27,2017-04-30,Eggettes,Jasmine milk tea,SF,https://farm5.staticflickr.com/4692/24352056737_7cd30c9295_b.jpg,,,April 30
-28,2017-05-15,Thirst-Tea,Black milk tea,"Omaha, NE",https://farm5.staticflickr.com/4735/24352057277_8c56bacd84_b.jpg,https://farm5.staticflickr.com/4589/24352055527_e1cfe74331_b.jpg,,May 15
-29,2017-05-22,Wonderful Foods Co.,Green milk tea,SF,https://farm5.staticflickr.com/4690/38505045524_405e2904a9_b.jpg,,,May 22
-30,2017-05-25,7-Eleven,Emial milk tea,"Tokyo, Japan (Akihabara)",https://farm5.staticflickr.com/4646/39186409572_cedbae96e5_b.jpg,,,May 25
-31,2017-05-26,Santa Monica Crepes,Matcha milk tea,"Tokyo, Japan (Harajuku)",https://farm5.staticflickr.com/4643/39186409562_8ba382135d_b.jpg,,,May 26
-32,2017-06-04,Bubble Market,Matcha milk tea,"Kyoto, Japan (Teramachi)",https://farm5.staticflickr.com/4634/39186409382_cf83fcdde1_b.jpg,,,June 4
-33,2017-06-05,i-Tea,Oriental Beauty,SF (Sunset),https://farm5.staticflickr.com/4600/38336345645_3799d0e21b_b.jpg,,,June 5
-34,2017-06-05,Purple Kow,Purplekow iced tea (black tea),SF,https://farm5.staticflickr.com/4685/38336349835_b49635a716_b.jpg,,,June 5
-35,2017-06-11,Infinitea,Earl grey milk tea,SF,https://farm5.staticflickr.com/4636/38505049454_722fe7536b_b.jpg,,,June 11
-36,2017-06-13,Plentea,Thai milk tea,SF,https://farm5.staticflickr.com/4735/38505049364_b61e6953e2_b.jpg,,,June 13
-37,2017-06-15,Eggettes,Honey green tea,SF,https://farm5.staticflickr.com/4591/38505049224_afc79abbb0_b.jpg,https://farm5.staticflickr.com/4587/38336349605_4b61b6a6bc_b.jpg,,June 15
-38,2017-06-16,i-Tea,Brown rice milk tea,SF (Sunset),https://farm5.staticflickr.com/4684/38505049284_1f3a99f822_b.jpg,,,June 16
+21,2017-04-09,Cha Express,Handmade black rice milk tea,"San Mateo, CA",https://farm5.staticflickr.com/4733/38336345995_cfe7feff10_z.jpg,https://farm5.staticflickr.com/4727/27436513189_def858b678_z.jpg,,April 9
+22,2017-04-10,Sharetea,Honey green tea,SF (Metreon),https://farm5.staticflickr.com/4680/38505045644_81081e0fd8_z.jpg,https://farm5.staticflickr.com/4595/27436513069_4d74fb90d6_z.jpg,,April 10
+23,2017-04-11,Home Plate Boba,Thai milk tea,SF,https://farm5.staticflickr.com/4681/24352054427_13004ca608_z.jpg,,,April 11
+24,2017-04-21,T4,Earl Grey milk tea,"Millbrae, CA",https://farm5.staticflickr.com/4739/38505050194_7eee884eb3_z.jpg,,,April 21
+25,2017-04-23,Boba Guys,Matcha latte,SF (Fillmore),https://farm5.staticflickr.com/4587/38505050084_6e4e582c52_z.jpg,,,April 23
+26,2017-04-29,Sencha Tea Bar,Silver Needles (black tea),"Bloomington, MN",https://farm5.staticflickr.com/4729/38505050004_bcc14ca9b9_z.jpg,https://farm5.staticflickr.com/4735/27436512779_e51f5abc3f_z.jpg,,April 29
+27,2017-04-30,Eggettes,Jasmine milk tea,SF,https://farm5.staticflickr.com/4692/24352056737_7cd30c9295_z.jpg,,,April 30
+28,2017-05-15,Thirst-Tea,Black milk tea,"Omaha, NE",https://farm5.staticflickr.com/4735/24352057277_8c56bacd84_z.jpg,https://farm5.staticflickr.com/4589/24352055527_e1cfe74331_z.jpg,,May 15
+29,2017-05-22,Wonderful Foods Co.,Green milk tea,SF,https://farm5.staticflickr.com/4690/38505045524_405e2904a9_z.jpg,,,May 22
+30,2017-05-25,7-Eleven,Emial milk tea,"Tokyo, Japan (Akihabara)",https://farm5.staticflickr.com/4646/39186409572_cedbae96e5_z.jpg,,,May 25
+31,2017-05-26,Santa Monica Crepes,Matcha milk tea,"Tokyo, Japan (Harajuku)",https://farm5.staticflickr.com/4643/39186409562_8ba382135d_z.jpg,,,May 26
+32,2017-06-04,Bubble Market,Matcha milk tea,"Kyoto, Japan (Teramachi)",https://farm5.staticflickr.com/4634/39186409382_cf83fcdde1_z.jpg,,,June 4
+33,2017-06-05,i-Tea,Oriental Beauty,SF (Sunset),https://farm5.staticflickr.com/4600/38336345645_3799d0e21b_z.jpg,,,June 5
+34,2017-06-05,Purple Kow,Purplekow iced tea (black tea),SF,https://farm5.staticflickr.com/4685/38336349835_b49635a716_z.jpg,,,June 5
+35,2017-06-11,Infinitea,Earl grey milk tea,SF,https://farm5.staticflickr.com/4636/38505049454_722fe7536b_z.jpg,,,June 11
+36,2017-06-13,Plentea,Thai milk tea,SF,https://farm5.staticflickr.com/4735/38505049364_b61e6953e2_z.jpg,,,June 13
+37,2017-06-15,Eggettes,Honey green tea,SF,https://farm5.staticflickr.com/4591/38505049224_afc79abbb0_z.jpg,https://farm5.staticflickr.com/4587/38336349605_4b61b6a6bc_z.jpg,,June 15
+38,2017-06-16,i-Tea,Brown rice milk tea,SF (Sunset),https://farm5.staticflickr.com/4684/38505049284_1f3a99f822_z.jpg,,,June 16
 39,2017-06-18,i-Tea,Fresh taro milk tea,SF (Sunset),https://farm5.staticflickr.com/4597/38505045394_f9b3541243_z.jpg,,,June 18
-40,2017-06-28,TeaOne,Jade pearl milk tea,SF,https://farm5.staticflickr.com/4733/38505049094_0792b162da_b.jpg,,,June 28
-41,2017-07-02,i-Tea,Brown rice milk tea,SF (Sunset),https://farm5.staticflickr.com/4646/38336349355_47aa904c25_b.jpg,https://farm5.staticflickr.com/4639/38336345455_aa57ef8194_b.jpg,,July 2
-42,2017-07-03,Wonderful Foods Co.,Green bean tapioca,SF,https://farm5.staticflickr.com/4643/38505048954_41eddbf209_b.jpg,,,July 3
-43,2017-07-04,i-Tea,Matcha milk tea,"San Jose, CA",https://farm5.staticflickr.com/4683/38505045264_2e545b1789_b.jpg,https://farm5.staticflickr.com/4639/38336349215_14d8c01102_b.jpg,,July 4
+40,2017-06-28,TeaOne,Jade pearl milk tea,SF,https://farm5.staticflickr.com/4733/38505049094_0792b162da_z.jpg,,,June 28
+41,2017-07-02,i-Tea,Brown rice milk tea,SF (Sunset),https://farm5.staticflickr.com/4646/38336349355_47aa904c25_z.jpg,https://farm5.staticflickr.com/4639/38336345455_aa57ef8194_z.jpg,,July 2
+42,2017-07-03,Wonderful Foods Co.,Green bean tapioca,SF,https://farm5.staticflickr.com/4643/38505048954_41eddbf209_z.jpg,,,July 3
+43,2017-07-04,i-Tea,Matcha milk tea,"San Jose, CA",https://farm5.staticflickr.com/4683/38505045264_2e545b1789_z.jpg,https://farm5.staticflickr.com/4639/38336349215_14d8c01102_z.jpg,,July 4
 44,2017-07-08,Cha Express,Handmade black rice milk tea,"San Mateo, CA",,,,July 8
-45,2017-07-10,i-Tea,Oriental Beauty,SF (Sunset),https://farm5.staticflickr.com/4595/38336349115_2b2f944568_b.jpg,https://farm5.staticflickr.com/4645/38505048784_278b4122c4_b.jpg,,July 10
-46,2017-07-11,Sweethut,Red bean tapioca,SF,https://farm5.staticflickr.com/4596/38336345395_d39ee5fc83_b.jpg,,,July 11
-47,2017-07-13,Little Sweet,Tin guan yin milk tea,SF,https://farm5.staticflickr.com/4734/38336348975_39c6d5337b_b.jpg,https://farm5.staticflickr.com/4593/38336348845_38ab419a6c_z.jpg,,July 13
+45,2017-07-10,i-Tea,Oriental Beauty,SF (Sunset),https://farm5.staticflickr.com/4595/38336349115_2b2f944568_z.jpg,https://farm5.staticflickr.com/4645/38505048784_278b4122c4_z.jpg,,July 10
+46,2017-07-11,Sweethut,Red bean tapioca,SF,https://farm5.staticflickr.com/4596/38336345395_d39ee5fc83_z.jpg,,,July 11
+47,2017-07-13,Little Sweet,Tin guan yin milk tea,SF,https://farm5.staticflickr.com/4734/38336348975_39c6d5337b_z.jpg,https://farm5.staticflickr.com/4593/38336348845_38ab419a6c_z.jpg,,July 13
 48,2017-07-14,Gosu,Something Just Like This ,SF,https://farm5.staticflickr.com/4680/38505048224_afabb864ea_z.jpg,https://farm5.staticflickr.com/4642/38505045254_f445613a12_z.jpg,,July 14
 49,2017-07-16,Tea Era,Iron Buddha milk tea,"Mountain View, CA",https://farm5.staticflickr.com/4727/38505048124_b8b94dd6f2_z.jpg,https://farm5.staticflickr.com/4727/38336348735_9a83218ffc_z.jpg,,July 16
-50,2017-07-18,Plentea,Matcha latte,SF,https://farm5.staticflickr.com/4734/38336345195_8d2509d120_b.jpg,,,July 18
+50,2017-07-18,Plentea,Matcha latte,SF,https://farm5.staticflickr.com/4734/38336345195_8d2509d120_z.jpg,,,July 18
 51,2017-07-20,Asha Tea House,Matcha latte,SF,https://farm5.staticflickr.com/4735/38336348635_b4f6378915_z.jpg,,,July 20
 52,2017-07-24,Little Sweet,Roast milk tea,SF,https://farm5.staticflickr.com/4727/38505047814_8f4889a723_z.jpg,https://farm5.staticflickr.com/4600/38336348455_0f5c85df3a_z.jpg,,July 24
 53,2017-07-29,U Cha,Okinawa milk tea ,"Berkeley, CA",https://farm5.staticflickr.com/4688/38505045154_004d5a325d_z.jpg,,,July 29
-54,2017-08-04,Twinkle Brown Sugar,Brown sugar milk tea,"Los Angeles, CA",https://farm5.staticflickr.com/4593/38505047704_0ee03b1a97_b.jpg,,,August 4
-55,2017-08-04,Snow Monster,Jasmine milk tea,"Los Angeles, CA (Koreatown)",https://farm5.staticflickr.com/4638/38336348275_f02bb482cd_b.jpg,,,August 4
-56,2017-08-06,7Leaves,Mung bean milk tea,"Westminster, CA",https://farm5.staticflickr.com/4633/38336344965_29c34ee31b_b.jpg,,,August 6
-57,2017-08-07,Milkbox,Earl Grey lavender ,"Irvine, CA",https://farm5.staticflickr.com/4596/38505047624_673b4b232b_b.jpg,,,August 7
+54,2017-08-04,Twinkle Brown Sugar,Brown sugar milk tea,"Los Angeles, CA",https://farm5.staticflickr.com/4593/38505047704_0ee03b1a97_z.jpg,,,August 4
+55,2017-08-04,Snow Monster,Jasmine milk tea,"Los Angeles, CA (Koreatown)",https://farm5.staticflickr.com/4638/38336348275_f02bb482cd_z.jpg,,,August 4
+56,2017-08-06,7Leaves,Mung bean milk tea,"Westminster, CA",https://farm5.staticflickr.com/4633/38336344965_29c34ee31b_z.jpg,,,August 6
+57,2017-08-07,Milkbox,Earl Grey lavender ,"Irvine, CA",https://farm5.staticflickr.com/4596/38505047624_673b4b232b_z.jpg,,,August 7
 58,2017-08-10,Asha Tea House,Iced matcha latte ,SF,https://farm5.staticflickr.com/4646/38505045094_1998f126f2_z.jpg,https://farm5.staticflickr.com/4683/38505047524_39aac506a0_z.jpg,,August 10
-59,2017-08-13,Little Sweet,Roast milk tea,SF,https://farm5.staticflickr.com/4638/38505047354_344440c92b_b.jpg,,,August 13
+59,2017-08-13,Little Sweet,Roast milk tea,SF,https://farm5.staticflickr.com/4638/38505047354_344440c92b_z.jpg,,,August 13
 60,2017-08-15,i-Tea,Earl grey milk tea,SF (FiDi),https://farm5.staticflickr.com/4732/38336344805_0be9652969_z.jpg,https://farm5.staticflickr.com/4689/38336347745_4619bfea14_z.jpg,,August 15
-61,2017-08-16,Sno-Crave,Jasmine milk tea,SF,https://farm5.staticflickr.com/4634/24352183527_62be1eeb12_b.jpg,,,August 16
-62,2017-08-25,Plentea,Jasmine green tea,SF,https://farm5.staticflickr.com/4644/38505047194_92ffbe9c18_b.jpg,https://farm5.staticflickr.com/4587/38336347635_939e3e4f37_b.jpg,,August 25
+61,2017-08-16,Sno-Crave,Jasmine milk tea,SF,https://farm5.staticflickr.com/4634/24352183527_62be1eeb12_z.jpg,,,August 16
+62,2017-08-25,Plentea,Jasmine green tea,SF,https://farm5.staticflickr.com/4644/38505047194_92ffbe9c18_z.jpg,https://farm5.staticflickr.com/4587/38336347635_939e3e4f37_z.jpg,,August 25
 63,2017-08-26,Little Sweet,Roast milk tea,SF,https://farm5.staticflickr.com/4588/38505047154_405fedc08e_z.jpg,,,August 26
 64,2017-09-05,Sweethut,Jasmine green tea,SF,,,,September 5
 65,2017-09-06,i-Tea,"3G milk tea (tapioca, grass jelly, pudding)",SF (Sunset),,,,September 6
@@ -89,15 +89,15 @@ number,date,establishment,drink,addressShort,image1,image2,addressLong,dateLong
 88,2017-10-29,Tastea,"Bootea Shaker (mango, peach, & pineapple tea with black jelly)","San Jose, CA",https://farm5.staticflickr.com/4730/38507169604_995584eb0a_z.jpg,https://farm5.staticflickr.com/4681/25348949848_b5091d9815_z.jpg,,October 29
 89,2017-11-02,Little Sweet,Creamy high mountain tea,SF,https://farm5.staticflickr.com/4693/38507175094_2c193f6398_z.jpg,,,November 2
 90,2017-11-04,Infinitea,Green milk tea,SF,https://farm5.staticflickr.com/4738/24352780527_d5cc4bc5c0_z.jpg,,,November 4
-91,2017-11-10,Sweetheart Cafe,Roasted milk tea,SF,https://farm5.staticflickr.com/4690/24350573407_ed6dd089b3_b.jpg,,,November 10
+91,2017-11-10,Sweetheart Cafe,Roasted milk tea,SF,https://farm5.staticflickr.com/4690/24350573407_ed6dd089b3_z.jpg,,,November 10
 92,2017-11-18,Teaspoon,Oolong tea creama,SF,https://farm5.staticflickr.com/4636/38505046894_a575eb223e_z.jpg,,,November 18
-93,2017-11-20,Steap,Oolong milk tea,SF,https://farm5.staticflickr.com/4640/38505045004_103c5aff52_b.jpg,https://farm5.staticflickr.com/4738/38336347345_0697de2728_b.jpg,,November 20
-94,2017-11-21,Steap,Taro milk tea,SF,https://farm5.staticflickr.com/4725/38505046704_9aa28c7729_b.jpg,,,November 21
+93,2017-11-20,Steap,Oolong milk tea,SF,https://farm5.staticflickr.com/4640/38505045004_103c5aff52_z.jpg,https://farm5.staticflickr.com/4738/38336347345_0697de2728_z.jpg,,November 20
+94,2017-11-21,Steap,Taro milk tea,SF,https://farm5.staticflickr.com/4725/38505046704_9aa28c7729_z.jpg,,,November 21
 95,2017-11-23,Wonderful Foods Co.,Green milk tea,SF,https://farm5.staticflickr.com/4730/38505046634_510fc50533_z.jpg,,,November 23
-96,2017-11-24,Sharetea,Oolong tea creama,SF (Metreon),https://farm5.staticflickr.com/4735/24350573357_2a796d15af_b.jpg,https://farm5.staticflickr.com/4647/38505046574_a3be875bba_b.jpg,,November 24
-97,2017-11-25,Happy Lemon,Matcha latte,"Fremont, CA",https://farm5.staticflickr.com/4599/38505046474_cb18d85b59_b.jpg,,,November 25
-98,2017-12-02,i-Tea,Alishan high mountain tea kreama,"Burlingame, CA",https://farm5.staticflickr.com/4685/38336346895_acf55f5d53_b.jpg,https://farm5.staticflickr.com/4592/38505046284_4e2beaa50e_z.jpg,,December 2
-99,2017-12-03,Super Cue,Jasmine milk tea (hot),SF (Ocean),https://farm5.staticflickr.com/4730/38336346675_0942fecbe7_b.jpg,https://farm5.staticflickr.com/4731/24350573327_1f78c01bb3_b.jpg,,December 3
+96,2017-11-24,Sharetea,Oolong tea creama,SF (Metreon),https://farm5.staticflickr.com/4735/24350573357_2a796d15af_z.jpg,https://farm5.staticflickr.com/4647/38505046574_a3be875bba_z.jpg,,November 24
+97,2017-11-25,Happy Lemon,Matcha latte,"Fremont, CA",https://farm5.staticflickr.com/4599/38505046474_cb18d85b59_z.jpg,,,November 25
+98,2017-12-02,i-Tea,Alishan high mountain tea kreama,"Burlingame, CA",https://farm5.staticflickr.com/4685/38336346895_acf55f5d53_z.jpg,https://farm5.staticflickr.com/4592/38505046284_4e2beaa50e_z.jpg,,December 2
+99,2017-12-03,Super Cue,Jasmine milk tea (hot),SF (Ocean),https://farm5.staticflickr.com/4730/38336346675_0942fecbe7_z.jpg,https://farm5.staticflickr.com/4731/24350573327_1f78c01bb3_z.jpg,,December 3
 100,2017-12-06,Plentea,Honey lime jasmine tea,SF,,,,December 6
 101,2017-12-15,Plentea,Honey lime jasmine tea,SF,https://farm5.staticflickr.com/4639/27436514459_f5a45ec0bc_z.jpg,https://farm5.staticflickr.com/4598/38505049594_8fd880db21_z.jpg,,December 15
 102,2017-12-16,Comebuy,Taiwan roasted oolong green tea,"Redwood City, CA",https://farm5.staticflickr.com/4681/38336346495_31b2f1a76a_z.jpg,https://farm5.staticflickr.com/4691/38505046034_39d1948665_z.jpg,,December 16
