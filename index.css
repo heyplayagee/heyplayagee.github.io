@@ -144,8 +144,8 @@ ul{
 /* Chinese New Year 2019 circle */
 #cny2019{
 	background-image: url("https://farm5.staticflickr.com/4889/40027634943_212fc237e7_o.png");
-	background-size: 120%;
-	background-position: 30% 100%;
+	background-size: 100%;
+	background-position: 0% 0%;
 }
 
 /* Tapiocount 2017 circle */
