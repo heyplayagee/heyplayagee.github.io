@@ -1,0 +1,51 @@
+<!-- Updated: 2019-02-05 -->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="utf-8">
+  <title>Stacy's Tapiocount 2017</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://code.jquery.com/jquery-2.1.4.js'></script>
+  <!-- SimpleImage.js -->
+  <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+  </script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel='stylesheet' href='posts.css'>
+  <script type="text/javascript" src="image_processing_cny2019.js"></script>
+</head>
+<!-- 
+Instructions:
+1. Click 'Choose File' button to select an image. Once selected, your image should appear in the Canvas.
+2. Click 'Wish my image prosperity!' to check and modify each pixel of your image. Result will be a color-processed image!
+-->
+
+<body>
+  <center>
+    <!-- title (Note: <title> only displays your text in the window/tab title of your browser)-->
+    <h1>Happy new year!</h1>
+    <p>Image process Peppa, please. <a href="https://www.gannett-cdn.com/presto/2019/01/30/USAT/1c7152e9-7a70-4911-885e-6148d27aeded-Peppa_Pig_photo.jpg">Right click to save this image</a> to upload below.<br>Feel free to upload any other photo you would like to turn LUCKY!</p>
+<!-- 
+Container to hold for graphics, similar to a paragraph <p> for text.
+This is where your Obama-fied image will be displayed.
+--> 
+<div id="main">
+  <h2 id="imageHead" style="color:red"></h2>
+  <canvas id="myCanvas">
+  </canvas>
+  <h2 id="imageFoot" style="color:red"></h2>
+</div>
+
+<!-- BUTTONS -->
+<div id="menu">
+  <!-- Button to upload image -->
+  <p>
+    <input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()" >
+  </p>
+  <!-- Button to run your Javascript to manipulate the uploaded image -->
+  <p>
+    <input type="button" value="Wish my image prosperity!" onclick="makeFilter();addGongxi();" >
+  </p>
+</div>
+</center>
+</body>
+</html>
