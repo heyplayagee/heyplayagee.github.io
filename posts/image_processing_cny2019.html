@@ -3,7 +3,7 @@
 <html>
 <head lang="en">
   <meta charset="utf-8">
-  <title>Stacy's Tapiocount 2017</title>
+  <title>Chinese New Year 2019 Image Processing Filter Effect</title>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <script src='https://code.jquery.com/jquery-2.1.4.js'></script>
   <!-- SimpleImage.js -->
@@ -13,6 +13,7 @@
   <link rel='stylesheet' href='posts.css'>
   <script type="text/javascript" src="image_processing_cny2019.js"></script>
 </head>
+
 <!-- 
 Instructions:
 1. Click 'Choose File' button to select an image. Once selected, your image should appear in the Canvas.
@@ -20,32 +21,51 @@ Instructions:
 -->
 
 <body>
-  <center>
-    <!-- title (Note: <title> only displays your text in the window/tab title of your browser)-->
-    <h1>Happy new year!</h1>
-    <p>Image process Peppa, please. <a href="https://www.gannett-cdn.com/presto/2019/01/30/USAT/1c7152e9-7a70-4911-885e-6148d27aeded-Peppa_Pig_photo.jpg">Right click to save this image</a> to upload below.<br>Feel free to upload any other photo you would like to turn LUCKY!</p>
-<!-- 
-Container to hold for graphics, similar to a paragraph <p> for text.
-This is where your Obama-fied image will be displayed.
---> 
-<div id="main">
-  <h2 id="imageHead" style="color:red"></h2>
-  <canvas id="myCanvas">
-  </canvas>
-  <h2 id="imageFoot" style="color:red"></h2>
-</div>
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TLLH2D"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TLLH2D');</script>
+  <!-- End Google Tag Manager -->
+  <!-- header -->
+  <div class="jumbotron" id="header">
+    <a href="http://heyplayagee.github.io/">
+      <center>
+        <h1 style="color:white">Stacy's Page Perpuetually Under Construction</h1>
+        <h3 style="color:white">Figuring out life one line at a time.</h3>
+      </center>
+    </a>
+  </div>
+  <!-- sidebar -->
+  <div class="container">
+    <!-- page links here -->
+    <div id="main-nav">
+     <a href="../about.html"><div class='full-circle' id="about-me"><h3>About Me</h3></div></a>
+     <a href="../projects.html"><div class='full-circle' id="resume"><h3>Projects</h3></div></a>
+     <a href="../blog.html"><div class='full-circle' id="blog"><h3>Blog</h3></div></a>
+     <a href="../contact.html"><div class='full-circle' id="contact-info"><h3>Contact</h3></div></a>
+   </div>
+   <!-- main content -->
+   <div id="content" class="container-fluid" style="float:left;width:840px">
+    <center><h1>Happy new year!</h1>
+      <p>Image process Peppa, please. <a href="https://www.gannett-cdn.com/presto/2019/01/30/USAT/1c7152e9-7a70-4911-885e-6148d27aeded-Peppa_Pig_photo.jpg">Right click to save this image</a> to upload below.<br>Feel free to upload any other photo you would like to turn LUCKY!<br>Thanks to <a href="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">SimpleImage.js</a> by <a href="https://www.dukelearntoprogram.com/">https://www.dukelearntoprogram.com/</a> for the easy-to-utilize script!</p>
+      <h2 id="imageHead" style="color:red"></h2>
+      <canvas id="myCanvas" style="width:518px"></canvas>
+      <h2 id="imageFoot" style="color:red"></h2>
 
-<!-- BUTTONS -->
-<div id="menu">
-  <!-- Button to upload image -->
-  <p>
-    <input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()" >
-  </p>
-  <!-- Button to run your Javascript to manipulate the uploaded image -->
-  <p>
-    <input type="button" value="Wish my image prosperity!" onclick="makeFilter();addGongxi();" >
-  </p>
-</div>
-</center>
+      <!-- BUTTONS -->
+      <!-- Button to upload image -->
+      <p>
+        <input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()" >
+      </p>
+      <!-- Button to run your Javascript to manipulate the uploaded image -->
+      <p>
+        <input type="button" value="Wish my image prosperity!" onclick="makeFilter();addGongxi();" >
+      </p>
+    </div>
+  </center>
 </body>
 </html>
