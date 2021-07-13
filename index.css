@@ -82,7 +82,7 @@ ul{
     /*opacity: 0.5;*/
 }
 .jumbotron, #header{
-	background-color:#bbc;
+	background-color:#64507C;
 	color:white;
 	padding: 10px;
 	font-family: "Gill Sans", Verdana, sans-serif;
@@ -91,7 +91,7 @@ ul{
 
 /* Navigation */
 .full-circle {
- background-color: #fff;
+ background-color: #000;
  -moz-border-radius:75px;
  -webkit-border-radius: 75px;
  border: 1px solid rgba(81, 203, 238, 1);
